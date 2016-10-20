@@ -35,7 +35,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:textAppearance="?android:textAppearanceMedium"
-            android:text="Whipped Cream"
+            android:text="@string/cream_topping"
             android:paddingLeft="24dp"
             />
 
@@ -47,14 +47,14 @@
             android:textSize="16sp"
             android:layout_marginBottom="8dp"
             android:textAppearance="?android:textAppearanceMedium"
-            android:text="Chocolatte"
+            android:text="@string/chocolate_topping"
             android:paddingLeft="24dp"
             />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quantity"
+        android:text="@string/quantity"
         android:textAllCaps="true"
         />
     <LinearLayout
@@ -88,7 +88,7 @@
         android:id="@+id/order_summary_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Order Summary"
+        android:text="@string/order_sum"
         android:textAllCaps="true"
         android:textSize="16sp"/>
     <TextView
@@ -104,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="submitOrder"
-        android:text="Order"
+        android:text="@string/order_submit"
         android:textAllCaps="true" />
 </LinearLayout>
 </ScrollView>

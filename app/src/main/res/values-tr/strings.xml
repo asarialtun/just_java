@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Kavve</string>
+    <string name="total">Toplam</string>
+    <string name="chocolate_topping">Çikolata</string>
+    <string name="coffee_order">Kahve siparişi</string>
+    <string name="cream_topping">Krema</string>
+    <string name="toppings">Soslar</string>
+    <string name="too_many">10 kahveden fazla sipariş edemezsiniz</string>
+    <string name="too_little">En az 1 kahve sipariş etmelisiniz</string>
+    <string name="thank_you">Teşekkürler</string>
+    <string name="quantity">Adet</string>
+    <string name="order_sum">Sipariş Özeti</string>
+    <string name="order_submit">Sipariş</string>
+    <string name="hint_name">İsim</string>
+</resources>
